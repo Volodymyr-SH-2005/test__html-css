@@ -1,0 +1,48 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    /*height: 100%;*/
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    /*height: 100%;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: Arial, sans-serif;*/
+    /*overflow: hidden;*/
+    /*overflow: scroll;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+img {
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    /*object-fit: contain;*/
+    object-fit: cover;
+
+}
