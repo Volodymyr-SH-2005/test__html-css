@@ -25,11 +25,18 @@
 </header>
 <section class="hero-section">
     <div class="w-1250">
-        <form id="top-subscribe-form" class="subscribe-form">
+        <div class="div-info_and_subscribe">
             <h1>Hi, i’m Dasteen Front end dev</h1>
             <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc Make sure you subscribe to get the latest updates</p>
-            <div class="input-group"></div>
-        </form>
+            <form id="top-subscribe-form" class="subscribe-form">
+                <input type="email"
+                       name="top_email"
+                       id="top-email"
+                       placeholder="Enter your email here...."
+                       required>
+                <input type="submit" name="top_submit" id="top-submit" value="subscribe">
+            </form>
+        </div>
         <img src="img/hero.png" alt="hero" class="hero-img">
     </div>
 </section>
