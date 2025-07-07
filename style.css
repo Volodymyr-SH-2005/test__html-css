@@ -333,4 +333,53 @@ footer{
     padding-top: 70px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+footer .w-1250{
+    align-items: flex-start;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-logo p{
+    width: 284px;
+    color: #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
+.div-social-media-icons{
+    height: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.div-social-media-icons img{
+    max-height: 30px;
+}
+.footer-info-cards{
+    display: flex;
+    gap: 95px;
+}
+.footer-info-cards h4{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.footer-info-cards p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.copyright{
+    border-top: 1px solid #C0C0C0;
+    margin-top: 50px;
+    padding: 26px 0;
+    color: #2B2C34;
+    font-size: 14px;
+    font-weight: 400;
 }
