@@ -11,6 +11,10 @@ html, body {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+html {
+    scroll-padding-top: 80px; /* висота вашого header */
+}
+
 body {
     /*width: 100vw;*/
     /*height: 100%;*/

@@ -8,12 +8,12 @@
 </head>
 <body>
 <header>
-    <div class="w-1250">
+    <div class="w-flex-between-center-0-auto">
         <h2 class="logo-dasteen">Dasteen<span>.Blog</span></h2>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#section-category">Category</a></li>
+                <li><a href="#id_hero-section">Home</a></li>
+                <li><a href="#id_category-section">Category</a></li>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#"><img src="img/icon_search.svg" alt="Search">Search</a></li>
                 <li>
@@ -23,8 +23,8 @@
         </nav>
     </div>
 </header>
-<section class="hero-section">
-    <div class="w-1250">
+<section id="id_hero-section" class="hero-section">
+    <div class="w-flex-between-center-0-auto">
         <div class="div-info_and_subscribe">
             <h1>Hi, i’m Dasteen Front end dev</h1>
             <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc Make sure you subscribe to get the latest updates</p>
@@ -40,56 +40,58 @@
         <img src="img/hero.png" alt="hero" class="hero-img">
     </div>
 </section>
-<section id="section-category" class="browse_the_category-section">
-    <div class="w-1250 section-header">
-        <h3>Browse the category</h3>
-        <a href="#">
-            <h4>see all category</h4>
-            <img src="img/arrow-right.svg" alt="arrow-right">
-        </a>
-    </div>
-    <div class="w-1250 category-grid">
-        <a class="category-grid-item" href="#">
-            <div class="category-icon">
-                <img src="img/icon_css.svg" alt="CSS">
+<section id="id_category-section" class="category-section">
+    <div class="w-flex-0-auto">
+        <div class="category-grid">
+            <div class="grid-header">
+                <h3>Browse the category</h3>
+                <a href="#">
+                    <h4>see all category</h4>
+                    <img src="img/arrow-right.svg" alt="arrow-right">
+                </a>
             </div>
-            <h3>CSS</h3>
-        </a>
-        <a class="category-grid-item" href="#">
-            <div class="category-icon">
-                <img src="img/icon_js.svg" alt="javascript">
-            </div>
-            <h3>javascript</h3>
-        </a>
-        <a class="category-grid-item" href="#">
-            <div class="category-icon">
-                <img src="img/icon_tailwind.svg" alt="Tailwind">
-            </div>
-            <h3>Tailwind</h3>
-        </a>
-        <a class="category-grid-item" href="#">
-            <div class="category-icon">
-                <img src="img/icon_vue_js.svg" alt="Vue JS">
-            </div>
-            <h3>Vue JS</h3>
-        </a>
-        <a class="category-grid-item" href="#">
-            <div class="category-icon">
-                <img src="img/icon_react_js.svg" alt="React JS">
-            </div>
-            <h3>React JS</h3>
-        </a>
+            <a class="category-grid-item" href="#">
+                <div class="category-icon">
+                    <img src="img/icon_css.svg" alt="CSS">
+                </div>
+                <h3>CSS</h3>
+            </a>
+            <a class="category-grid-item" href="#">
+                <div class="category-icon">
+                    <img src="img/icon_js.svg" alt="javascript">
+                </div>
+                <h3>javascript</h3>
+            </a>
+            <a class="category-grid-item" href="#">
+                <div class="category-icon">
+                    <img src="img/icon_tailwind.svg" alt="Tailwind">
+                </div>
+                <h3>Tailwind</h3>
+            </a>
+            <a class="category-grid-item" href="#">
+                <div class="category-icon">
+                    <img src="img/icon_vue_js.svg" alt="Vue JS">
+                </div>
+                <h3>Vue JS</h3>
+            </a>
+            <a class="category-grid-item" href="#">
+                <div class="category-icon">
+                    <img src="img/icon_react_js.svg" alt="React JS">
+                </div>
+                <h3>React JS</h3>
+            </a>
+        </div>
     </div>
 </section>
 <main>
-    <div class="w-1250 section-header">
+    <div class="w-flex-between-center-0-auto section-header">
         <h3>Featured Article</h3>
         <a href="#">
             <h4>See All Article</h4>
             <img src="img/arrow-right.svg" alt="arrow-right">
         </a>
     </div>
-    <div class="w-1250 article-grid">
+    <div class="w-flex-between-center-0-auto article-grid">
         <a class="article-item" href="#">
             <div>
                 <img class="article-img" src="img/article-img_fundamental-of-javascript.png" alt="Fundamental of javascript">
@@ -159,14 +161,14 @@
             </div>
         </a>
     </div>
-    <div class="w-1250 section-header">
+    <div class="w-flex-between-center-0-auto section-header">
         <h3>CSS</h3>
         <a href="#">
             <h4>See All Article</h4>
             <img src="img/arrow-right.svg" alt="arrow-right">
         </a>
     </div>
-    <div class="w-1250 article-grid">
+    <div class="w-flex-between-center-0-auto article-grid">
         <a class="article-item" href="#">
             <div>
                 <img class="article-img" src="img/article-img_flexbox-css.png" alt="Flexbox cSS : Everything you need to know">
@@ -236,14 +238,14 @@
             </div>
         </a>
     </div>
-    <div class="w-1250 section-header">
+    <div class="w-flex-between-center-0-auto section-header">
         <h3>javascript</h3>
         <a href="#">
             <h4>See All Article</h4>
             <img src="img/arrow-right.svg" alt="arrow-right">
         </a>
     </div>
-    <div class="w-1250 article-grid">
+    <div class="w-flex-between-center-0-auto article-grid">
         <a class="article-item" href="#">
             <div>
                 <img class="article-img" src="img/article-img_array-in-javasript.png" alt="array in javasript - Learn JS #3">
@@ -313,14 +315,14 @@
             </div>
         </a>
     </div>
-    <div class="w-1250 section-header">
+    <div class="w-flex-between-center-0-auto section-header">
         <h3>React JS</h3>
         <a href="#">
             <h4>See All Article</h4>
             <img src="img/arrow-right.svg" alt="arrow-right">
         </a>
     </div>
-    <div class="w-1250 article-grid">
+    <div class="w-flex-between-center-0-auto article-grid">
         <a class="article-item" href="#">
             <div>
                 <img class="article-img" src="img/article-img_first-month-of-leaning-react-js.png" alt="first month of leaning react jS">
@@ -412,7 +414,7 @@
     </form>
 </section>
 <footer>
-    <div class="w-1250">
+    <div class="w-flex-between-center-0-auto">
         <div class="footer-logo">
             <h2 class="logo-dasteen">Dasteen<span>.Blog</span></h2>
             <p>Digitaldastin by Dastin Darmawan</p>
@@ -452,7 +454,7 @@
             </div>
         </div>
     </div>
-    <div class="w-1250 copyright">
+    <div class="w-flex-between-center-0-auto copyright">
         <p>© 2025 Digitaldastin</p>
     </div>
 </footer>
