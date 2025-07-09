@@ -29,5 +29,15 @@
 
         font-size: 14px;
     }
-
+    /*====================== hero-section */
+    .hero-section{
+        display: flex;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .hero-section .w-flex-between-center-0-auto{
+        justify-content: center;
+        flex-direction: column;
+        background: yellow;
+    }
 }
