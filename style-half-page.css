@@ -1,0 +1,50 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .w-flex-0-auto{
+        width: 625px;
+    }
+    .w-flex-between-center-0-auto{
+        width: 625px;
+    }
+    /*====================== header */
+    .header-grid{
+        /*height: 100%;*/
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 42px 42px;
+        grid-template-areas:
+        "header-grid-logo header-grid-nav"
+        "header-grid-btn header-grid-nav";
+        gap: 0;
+    }
+    .header-grid :nth-child(1){
+        grid-area: header-grid-logo;
+        justify-self: flex-start;
+    }
+    .header-grid :nth-child(2){
+        grid-area: header-grid-nav;
+    }
+    .header-grid :nth-child(3){
+        grid-area: header-grid-btn;
+        justify-self: flex-start;
+    }
+    /*.logo-dasteen{*/
+    /*    font-size: 24px;*/
+    /*}*/
+    /*.logo-dasteen span{*/
+    /*    font-size: 12px;*/
+    /*}*/
+    header ul{
+        gap: 10px;
+        font-size: 16px;
+    }
+    .btn-buy_me_a_coffee{
+        border-radius: 4px;
+        padding: 10px 17px;
+        gap: 10px;
+
+        font-size: 14px;
+    }
+    header ul :nth-child(4) a img{
+        width: 13px;
+        height: 13px;
+    }
+}

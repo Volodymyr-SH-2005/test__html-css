@@ -21,6 +21,14 @@ header{
 header .w-flex-between-center-0-auto{
     height: 86px;
 }
+.header-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 194px auto 213px;
+    justify-items: flex-end;
+    align-items: center;
+    gap: 50px;
+}
 .logo-dasteen{
     color: #001858;
     font-size: 36px;
