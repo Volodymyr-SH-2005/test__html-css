@@ -414,18 +414,19 @@ footer .w-flex-between-center-0-auto{
 .div-social-media-icons img{
     max-height: 30px;
 }
-.footer-info-cards{
-    display: flex;
+.footer-info-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     gap: 95px;
 }
-.footer-info-cards h4{
+.footer-info-grid h4{
     color: #2B2C34;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.footer-info-cards p{
+.footer-info-grid p{
     color: #2B2C34;
     font-size: 18px;
     font-weight: 400;
