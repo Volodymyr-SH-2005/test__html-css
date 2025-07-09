@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .w-flex-0-auto{
         width: 625px;
     }
@@ -31,13 +31,39 @@
     }
     /*====================== hero-section */
     .hero-section{
+        height: 100vh;
         display: flex;
         align-items: center;
-        padding-top: 100px;
+        padding-top: 86px;
     }
-    .hero-section .w-flex-between-center-0-auto{
-        justify-content: center;
-        flex-direction: column;
-        background: yellow;
+    .hero-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 400px 200px;
+        grid-column-gap: 25px;
+        grid-row-gap: 30px;
+        grid-template-areas:
+            "hero-grid-h1 hero-grid-img"
+            "hero-grid-p hero-grid-p"
+            "hero-grid-input hero-grid-input";
+        align-items: center;
+    }
+    .hero-grid h1{
+        width: 400px;
+        font-size: 52px;
+        padding-top: 0;
+    }
+    .hero-grid p{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+    }
+    .hero-grid .wrapper_email-submit{
+        padding-bottom: 0;
+    }
+    .hero-grid img{
+        max-width: 200px;
+        height: auto;
+        padding: 0;
     }
 }
