@@ -80,11 +80,22 @@
         grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
         grid-template-rows: 30px 280px 280px;
         /*grid-row-gap: 50px;*/
-        /*grid-column-gap: 37px;*/
+        grid-column-gap: 20px;
         grid-template-areas:
         "category-grid-h category-grid-h category-grid-h category-grid-h"
         "category-grid-i-1 category-grid-i-2 category-grid-i-2 category-grid-i-3"
         "category-grid-i-4 category-grid-i-4 category-grid-i-5 category-grid-i-5";
+    }
+    .category-grid-item{
+        width: 195px;
+        /*height: 280px;*/
+        /*border-radius: 8px;*/
+        /*background: #FFFFFE;*/
+        /*padding-top: 65px;*/
+        /*padding-left: 30px;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*gap: 30px;*/
     }
     .category-grid :nth-child(5){
         grid-area: category-grid-i-4;
