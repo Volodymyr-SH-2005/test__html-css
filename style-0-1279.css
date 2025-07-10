@@ -66,4 +66,28 @@
         height: auto;
         padding: 0;
     }
+    /*====================== category-section */
+    .category-section{
+        width: 100%;
+        height: auto;
+        background: #EFF0F3;
+        /*padding: 67px 0 50px 0;*/
+        padding: 67px 0;
+    }
+    .category-grid{
+        /*width: 100%;*/
+        /*display: grid;*/
+        grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+        grid-template-rows: 30px 280px 280px;
+        /*grid-row-gap: 50px;*/
+        /*grid-column-gap: 37px;*/
+        grid-template-areas:
+        "category-grid-h category-grid-h category-grid-h category-grid-h"
+        "category-grid-i-1 category-grid-i-2 category-grid-i-2 category-grid-i-3"
+        "category-grid-i-4 category-grid-i-4 category-grid-i-5 category-grid-i-5";
+    }
+    .category-grid :nth-child(5){
+        grid-area: category-grid-i-4;
+        justify-self: flex-end;
+    }
 }

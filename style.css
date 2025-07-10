@@ -198,7 +198,6 @@ header ul :nth-child(4) a img{
     grid-template-areas:
         "category-grid-h category-grid-h category-grid-h category-grid-h category-grid-h"
         "category-grid-i-1 category-grid-i-2 category-grid-i-3 category-grid-i-4 category-grid-i-5";
-    margin: 0 auto;
 }
 .category-grid :nth-child(1){
     grid-area: category-grid-h;
@@ -278,7 +277,7 @@ main .w-flex-0-auto{
     grid-template-areas:
         "article-grid-h article-grid-h article-grid-h article-grid-h"
         "article-grid-i-1 article-grid-i-2 article-grid-i-3 article-grid-i-4";
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 .article-grid :nth-child(1){
     grid-area: article-grid-h;
